@@ -6,8 +6,9 @@ package com.tut.programs;
 import java.util.Scanner;
 
 /**
- * @author Amit Joshi
- *
+ * @author 		Amit Joshi 
+ * @Question 	Write the Program to check given number is even or odd ?
+ * @Hint		if Number divisible by 2 it is even else odd
  */
 
 
