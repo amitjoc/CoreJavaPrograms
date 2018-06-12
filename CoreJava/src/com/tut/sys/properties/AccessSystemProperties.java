@@ -14,6 +14,13 @@ public class AccessSystemProperties {
 		
 		Properties sysProperties = new Properties( System.getProperties());
 		
+		
+		//we can also add our custom properties to the variable 
+		
+		sysProperties.put("myCustomProperties", "Hello Bro this is custom property set by me");
+		
+		
+		
 		//method one the simple one
 		//to use below method remove comment
 		//sysProperties.list(System.out);
