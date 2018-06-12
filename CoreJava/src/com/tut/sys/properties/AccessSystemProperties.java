@@ -13,6 +13,12 @@ public class AccessSystemProperties {
 		
 		
 		Properties sysProperties = new Properties( System.getProperties());
+		
+		//method one the simple one
+		//to use below method remove comment
+		//sysProperties.list(System.out);
+		
+		//method two using the enumeration class
 		Enumeration keys = sysProperties.propertyNames();
 		 
 		 while(keys.hasMoreElements()) {
