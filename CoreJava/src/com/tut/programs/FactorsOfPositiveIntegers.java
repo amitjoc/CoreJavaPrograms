@@ -22,9 +22,10 @@ public class FactorsOfPositiveIntegers {
 	
 	public static int[] factorGenrator(int num) {
 		
-		int[] factorsArray = new int[num+1]; // to hold the factors needed one extra memmory size
+		int[] factorsArray = new int[num+1]; // to hold the factors needed one extra memory size
 		 
-		for(int loopCounter=1;loopCounter<=num;loopCounter++) {
+		for(int loopCounter=1;	loopCounter<=num;	loopCounter++) {
+			
 			if(num%loopCounter == 0) {
 				factorsArray[loopCounter]=loopCounter;
 			}else {
