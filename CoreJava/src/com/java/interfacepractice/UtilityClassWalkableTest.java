@@ -13,6 +13,17 @@ public class UtilityClassWalkableTest {
 		
 		UtilityClassWalkable.LetThemWalk(personList);
 		
+		System.out.println("====================================================");
+		
+		//now test soultion for duck class
+		
+		Duck[] duckList = new Duck[3];
+		
+		duckList[0] = new Duck("Huey");
+		duckList[1] = new Duck("Dewey");
+		duckList[2] = new Duck("Louie");
+		
+		UtilityClassWalkable.LetDuckWalk(duckList);
 		
 	}
 
