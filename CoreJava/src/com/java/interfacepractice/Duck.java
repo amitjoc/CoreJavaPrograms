@@ -15,6 +15,7 @@ public class Duck {
 	}
 	
 	public void walk() {
+		
 		System.out.println("Duck (" + this.duckName + ") is walking.");
 	}
 	
